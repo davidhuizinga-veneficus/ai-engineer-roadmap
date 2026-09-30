@@ -22,4 +22,5 @@ uv run project
 uv run pytest            # run tests
 uv run ruff check .      # lint
 uv run ruff format .     # format
+uv run mypy              # type check
 ```
