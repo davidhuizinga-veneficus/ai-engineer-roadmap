@@ -1,0 +1,78 @@
+[project]
+site_name = "AI Engineer Roadmap"
+site_description = "From data science trainee to Junior AI Engineer: what to learn, where to learn it, and the interview questions to practise."
+# site_url and repo_url are filled in once the repository lives in its final GitHub account.
+
+nav = [
+  { "Roadmap" = "index.md" },
+  { "Setup and costs" = "setup.md" },
+  { "Stages" = [
+    "stages/llm-foundations.md",
+    "stages/rag.md",
+    "stages/agents.md",
+    "stages/evaluation.md",
+    "stages/deployment.md",
+    "stages/security.md",
+    "stages/mcp-skills.md",
+    "stages/multi-agent.md",
+    "stages/final-project.md",
+  ] },
+]
+
+extra_css = ["assets/roadmap.css"]
+extra_javascript = ["assets/progress.js"]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+[project.theme.icon]
+logo = "lucide/route"
+
+[project.theme.font]
+text = "Instrument Sans"
+code = "JetBrains Mono"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.betterem = {}
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.inlinehilite = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences = {}

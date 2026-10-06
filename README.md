@@ -1,26 +1,59 @@
-# project
+# AI Engineer Roadmap
 
-Add your description here.
+A self-study website for data science trainees preparing for a Junior AI Engineer role and its interview. It lists what to learn per topic, links to courses and exercises, and has interview questions with click-to-reveal answers. Trainees tick items off as they go; progress is saved in their own browser.
 
-## Setup
+## Editing the content
+
+All content is plain Markdown in [`docs/`](docs/):
+
+- [`docs/index.md`](docs/index.md): home page with the roadmap and the "why this site exists" text
+- [`docs/setup.md`](docs/setup.md): setup and costs
+- [`docs/stages/`](docs/stages/): one file per stage
+
+### Add a resource or exercise
+
+Add a list item with a link followed by `{ ... }`:
+
+```markdown
+- [Title of the resource](https://example.com){ .rm-item data-source="Course · DataCamp" data-time="45 min" } One sentence on why it's worth the time.
+```
+
+- Add `.rm-exercise` to label it as an exercise.
+- Add `.rm-refresh` to include it in the half-day refresh route.
+- Put it under `## Go deeper { .rm-full-only }` for optional extra depth.
+
+### Add a question
+
+```markdown
+??? interview "The question?"
+    The answer, indented by four spaces.
+```
+
+Use `selfcheck` instead of `interview` for a check-your-understanding question, and add `rm-refresh` (`??? interview rm-refresh "..."`) to include it in the refresh route.
+
+**Note:** progress is stored per link URL and per question text. Changing a link or rewording a question resets that item for trainees who already ticked it.
+
+## Preview locally
 
 Requires [uv](https://docs.astral.sh/uv/).
 
 ```sh
 uv sync
-```
-
-## Usage
-
-```sh
-uv run project
+uv run zensical serve     # open http://localhost:8000
 ```
 
 ## Development
 
 ```sh
-uv run pytest            # run tests
-uv run ruff check .      # lint
-uv run ruff format .     # format
-uv run mypy              # type check
+uv run playwright install chromium   # once, for the browser tests
+uv run pytest                        # build the site and run browser tests
+uv run ruff check .                  # lint
+uv run ruff format .                 # format
+uv run mypy                          # type check
 ```
+
+Pushing to `main` publishes the site to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+## Suggestions
+
+Trainees can suggest resources or questions by opening an issue in this repository.
