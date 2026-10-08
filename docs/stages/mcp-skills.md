@@ -1,33 +1,33 @@
 ---
-title: MCP and skills
-description: Standard ways to give agents tools, data and instructions.
+title: MCP en skills
+description: Standaardmanieren om agents tools, data en instructies te geven.
 ---
 
-# MCP and skills
+# MCP en skills
 
-<p class="rm-lede">Less urgent than the earlier stages, but increasingly mentioned. MCP is a standard way to connect tools and data sources to any AI application; skills are packaged instructions an agent loads only when it needs them.</p>
+<p class="rm-lede">MCP is een standaardmanier om tools en databronnen aan elke AI-applicatie te koppelen; skills zijn verpakte instructies die een agent pas laadt als hij ze nodig heeft.</p>
 
 <div class="rm-meta" markdown>
-<span>Stage 7 of 9</span>
-<span>About 3 hours</span>
-<span>Builds on: agents and tool calling</span>
+<span>Fase 7 van 9</span>
+<span>Ongeveer 3 uur</span>
+<span>Bouwt voort op: agents en tool calling</span>
 </div>
 
-!!! curating "This stage is being curated"
-    Course sections and exercises are being selected.
+!!! curating "Deze fase wordt nog samengesteld"
+    Cursusonderdelen en oefeningen worden nog gekozen.
 
-## Learn
+## Leren
 
-- [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro){ .rm-item .rm-refresh data-source="Docs · MCP" data-time="15 min" } The official introduction: what MCP is and why it exists.
-- [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills){ .rm-item data-source="Docs · GitHub" data-time="15 min" } How skills work in GitHub Copilot, including where to put them in a repository.
+- [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro){ .rm-item .rm-refresh data-source="Docs · MCP" data-time="15 min" } De officiële introductie: wat MCP is en waarom het bestaat.
+- [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills){ .rm-item data-source="Docs · GitHub" data-time="15 min" } Hoe skills werken in GitHub Copilot, inclusief waar je ze in een repository neerzet.
 
-## Interview questions
+## Interviewvragen
 
-??? interview rm-refresh "What problem does MCP solve?"
-    Without a standard, every AI application needs its own custom integration for every tool or data source. MCP defines one protocol: you build an **MCP server** once (for example for your database or ticketing system), and any MCP-compatible client (Claude, Copilot, your own agent) can use it. It's often compared to USB-C for AI tools.
+??? interview rm-refresh "Welk probleem lost MCP op?"
+    Zonder standaard heeft elke AI-applicatie een eigen maatwerkkoppeling nodig voor elke tool of databron. MCP definieert één protocol: je bouwt één keer een **MCP-server** (bijvoorbeeld voor je database of ticketsysteem), en elke MCP-compatibele client (Claude, Copilot, je eigen agent) kan hem gebruiken. Het wordt vaak vergeleken met USB-C voor AI-tools.
 
-??? interview rm-refresh "What is the difference between a tool, an MCP server and a skill?"
-    A **tool** is a single function the model can call. An **MCP server** is a program that offers a set of tools (and data) to any compatible client over a standard protocol. A **skill** is a folder of instructions, and optionally scripts, that tells an agent *how* to do a kind of task; the agent loads it only when relevant, which keeps its context small.
+??? interview rm-refresh "Wat is het verschil tussen een tool, een MCP-server en een skill?"
+    Een **tool** is één functie die het model kan aanroepen. Een **MCP-server** is een programma dat een set tools (en data) aanbiedt aan elke compatibele client via een standaardprotocol. Een **skill** is een map met instructies, en eventueel scripts, die een agent vertelt *hoe* hij een bepaald soort taak uitvoert; de agent laadt hem alleen als dat relevant is, wat zijn context klein houdt.
 
-??? interview rm-refresh "What are the security risks of connecting an MCP server?"
-    An MCP server can run code and access data with whatever permissions you give it, and its tool descriptions are text the model reads, so a malicious or compromised server can inject instructions. Only use servers you trust, give them minimal permissions, and review what tools they expose.
+??? interview rm-refresh "Wat zijn de securityrisico's van een MCP-server koppelen?"
+    Een MCP-server kan code uitvoeren en bij data komen met alle rechten die je hem geeft, en zijn toolbeschrijvingen zijn tekst die het model leest. Een kwaadaardige of gecompromitteerde server kan dus instructies injecteren. Gebruik alleen servers die je vertrouwt, geef ze minimale rechten en controleer welke tools ze aanbieden.

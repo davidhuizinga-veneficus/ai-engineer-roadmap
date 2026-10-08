@@ -117,9 +117,9 @@
   }
 
   const routeToggle = () =>
-    el("div", { class: "rm-route-toggle", role: "group", "aria-label": "Choose a route" }, [
-      el("button", { type: "button", "data-route": "full" }, ["Full route"]),
-      el("button", { type: "button", "data-route": "refresh" }, ["Refresh"]),
+    el("div", { class: "rm-route-toggle", role: "group", "aria-label": "Kies een route" }, [
+      el("button", { type: "button", "data-route": "full" }, ["Volledige route"]),
+      el("button", { type: "button", "data-route": "refresh" }, ["Opfrissen"]),
     ]);
 
   // ---------- stage pages ----------
@@ -141,7 +141,7 @@
       type: "checkbox",
       class: "rm-check",
       "data-id": id,
-      "aria-label": `Mark "${link.textContent}" as done`,
+      "aria-label": `Markeer "${link.textContent}" als gedaan`,
     });
     checkbox.checked = Boolean(state.done[id]);
     item.classList.toggle("is-done", checkbox.checked);
@@ -155,7 +155,7 @@
 
     const meta = el("div", { class: "rm-li-meta" });
     if (link.classList.contains("rm-exercise")) {
-      meta.append(el("span", { class: "rm-chip rm-chip--exercise", text: "Exercise" }));
+      meta.append(el("span", { class: "rm-chip rm-chip--exercise", text: "Oefening" }));
     }
     if (link.dataset.source) meta.append(el("span", { class: "rm-chip", text: link.dataset.source }));
     if (link.dataset.time) meta.append(el("span", { class: "rm-chip rm-chip--time", text: link.dataset.time }));
@@ -168,8 +168,8 @@
     details.dataset.rmId = id;
     details.classList.add("rm-q");
     const buttons = [
-      ["ok", "Could answer"],
-      ["review", "Need to review"],
+      ["ok", "Kon ik beantwoorden"],
+      ["review", "Nog herhalen"],
     ].map(([rating, label]) => {
       const button = el("button", {
         type: "button",
@@ -201,7 +201,7 @@
 
     details
       .querySelector("summary")
-      .append(el("span", { class: "rm-rating", role: "group", "aria-label": "Rate yourself" }, buttons));
+      .append(el("span", { class: "rm-rating", role: "group", "aria-label": "Beoordeel jezelf" }, buttons));
     renderRating();
   }
 
@@ -212,8 +212,8 @@
     if (!toolbar || !stageContent) return;
     const { done, total } = progressOf(collectEntries(stageContent));
     toolbar.querySelector(".rm-toolbar-count").textContent = total
-      ? `${done} / ${total} done`
-      : "Nothing to tick off yet";
+      ? `${done} / ${total} afgerond`
+      : "Nog niets om af te vinken";
     toolbar.style.setProperty("--rm-progress", total ? done / total : 0);
   }
 
@@ -228,7 +228,7 @@
     const filter = el(
       "button",
       { type: "button", class: "rm-review-filter", "aria-pressed": "false" },
-      ["Only questions to review"],
+      ["Alleen vragen om te herhalen"],
     );
     filter.addEventListener("click", () => {
       const active = !document.documentElement.classList.contains("rm-filter-review");
@@ -291,7 +291,7 @@
     const resume = document.getElementById("rm-continue");
     if (state.last) {
       resume.href = state.last;
-      resume.textContent = "Continue where you left off";
+      resume.textContent = "Ga verder waar je gebleven was";
     }
   }
 
@@ -310,7 +310,7 @@
     document.body.append(link);
     link.click();
     link.remove();
-    setStatus("Backup downloaded. Keep the file somewhere safe.");
+    setStatus("Back-up gedownload. Bewaar het bestand op een veilige plek.");
   }
 
   async function importProgress(file) {
@@ -328,9 +328,9 @@
       saveState();
       applyRoute();
       await renderHome();
-      setStatus("Progress imported. Welcome back!");
+      setStatus("Voortgang geïmporteerd. Welkom terug!");
     } catch {
-      setStatus("That file doesn't look like a progress backup from this site.");
+      setStatus("Dit bestand lijkt geen voortgangsback-up van deze site te zijn.");
     }
   }
 

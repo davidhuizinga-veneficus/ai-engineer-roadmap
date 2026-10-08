@@ -4,7 +4,7 @@ A self-study website for data science trainees preparing for a Junior AI Enginee
 
 ## Editing the content
 
-All content is plain Markdown in [`docs/`](docs/):
+All content is plain Markdown in [`docs/`](docs/), written in Dutch (technical terms and course titles stay in English):
 
 - [`docs/index.md`](docs/index.md): home page with the roadmap and the "why this site exists" text
 - [`docs/setup.md`](docs/setup.md): setup and costs
@@ -15,18 +15,18 @@ All content is plain Markdown in [`docs/`](docs/):
 Add a list item with a link followed by `{ ... }`:
 
 ```markdown
-- [Title of the resource](https://example.com){ .rm-item data-source="Course · DataCamp" data-time="45 min" } One sentence on why it's worth the time.
+- [Title of the resource](https://example.com){ .rm-item data-source="Cursus · DataCamp" data-time="45 min" } Eén zin over waarom het de moeite waard is.
 ```
 
 - Add `.rm-exercise` to label it as an exercise.
 - Add `.rm-refresh` to include it in the half-day refresh route.
-- Put it under `## Go deeper { .rm-full-only }` for optional extra depth.
+- Put it under `## Verdieping { .rm-full-only }` for optional extra depth.
 
 ### Add a question
 
 ```markdown
-??? interview "The question?"
-    The answer, indented by four spaces.
+??? interview "De vraag?"
+    Het antwoord, vier spaties ingesprongen.
 ```
 
 Use `selfcheck` instead of `interview` for a check-your-understanding question, and add `rm-refresh` (`??? interview rm-refresh "..."`) to include it in the refresh route.

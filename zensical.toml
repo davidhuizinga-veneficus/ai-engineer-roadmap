@@ -1,12 +1,12 @@
 [project]
 site_name = "AI Engineer Roadmap"
-site_description = "From data science trainee to Junior AI Engineer: what to learn, where to learn it, and the interview questions to practise."
+site_description = "Van data trainee naar Junior AI Engineer: wat je moet leren, waar je het leert en welke interviewvragen je kunt oefenen."
 # site_url and repo_url are filled in once the repository lives in its final GitHub account.
 
 nav = [
   { "Roadmap" = "index.md" },
-  { "Setup and costs" = "setup.md" },
-  { "Stages" = [
+  { "Setup en kosten" = "setup.md" },
+  { "Fases" = [
     "stages/llm-foundations.md",
     "stages/rag.md",
     "stages/agents.md",
@@ -23,7 +23,7 @@ extra_css = ["assets/roadmap.css"]
 extra_javascript = ["assets/progress.js"]
 
 [project.theme]
-language = "en"
+language = "nl"
 features = [
   "content.code.copy",
   "content.tooltips",
@@ -39,7 +39,7 @@ features = [
 logo = "lucide/route"
 
 [project.theme.font]
-text = "Instrument Sans"
+text = "Inter"
 code = "JetBrains Mono"
 
 [[project.theme.palette]]
@@ -47,7 +47,7 @@ media = "(prefers-color-scheme)"
 primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/sun-moon"
-toggle.name = "Switch to light mode"
+toggle.name = "Naar licht thema"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
@@ -55,7 +55,7 @@ scheme = "default"
 primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.name = "Naar donker thema"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
@@ -63,7 +63,7 @@ scheme = "slate"
 primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to system preference"
+toggle.name = "Naar systeeminstelling"
 
 [project.markdown_extensions]
 admonition = {}

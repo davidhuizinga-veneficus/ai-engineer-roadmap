@@ -1,32 +1,32 @@
 ---
-title: LLM security
-description: The ways LLM applications get attacked, and how to limit the damage.
+title: LLM-security
+description: Hoe LLM-applicaties worden aangevallen, en hoe je de schade beperkt.
 ---
 
-# LLM security
+# LLM-security
 
-<p class="rm-lede">The traineeship covered security in general. LLMs add new problems: text in a document can become an instruction, and a model can leak what it was shown. This stage covers the risks interviewers expect you to name.</p>
+<p class="rm-lede">Het traineeship behandelde security in het algemeen. LLM's brengen nieuwe problemen mee: tekst in een document kan een instructie worden, en een model kan lekken wat het te zien kreeg. Deze fase behandelt de risico's die interviewers je verwachten te kunnen noemen.</p>
 
 <div class="rm-meta" markdown>
-<span>Stage 6 of 9</span>
-<span>About 2.5 hours</span>
-<span>Builds on: the traineeship security module</span>
+<span>Fase 6 van 9</span>
+<span>Ongeveer 2,5 uur</span>
+<span>Bouwt voort op: de securitymodule van het traineeship</span>
 </div>
 
-!!! curating "This stage is being curated"
-    Course sections and exercises are being selected.
+!!! curating "Deze fase wordt nog samengesteld"
+    Cursusonderdelen en oefeningen worden nog gekozen.
 
-## Learn
+## Leren
 
-- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/){ .rm-item .rm-refresh data-source="Reference · OWASP" data-time="30 min" } The standard list of LLM risks. Skim all ten, read prompt injection in detail.
+- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/){ .rm-item .rm-refresh data-source="Naslag · OWASP" data-time="30 min" } De standaardlijst met LLM-risico's. Bekijk ze alle tien globaal en lees prompt injection in detail.
 
-## Interview questions
+## Interviewvragen
 
-??? interview rm-refresh "What is prompt injection?"
-    Text that the model treats as instructions even though it came from an untrusted source: a user message, a web page, an email, or a retrieved document. "Ignore your previous instructions and…" is the classic example. *Indirect* prompt injection, hidden in content the application retrieves, is the harder case, because the user never typed it.
+??? interview rm-refresh "Wat is prompt injection?"
+    Tekst die het model als instructie behandelt, terwijl die uit een onbetrouwbare bron komt: een gebruikersbericht, een webpagina, een e-mail of een opgehaald document. "Negeer je eerdere instructies en…" is het klassieke voorbeeld. *Indirecte* prompt injection, verstopt in content die de applicatie ophaalt, is het lastigere geval, omdat de gebruiker het nooit heeft getypt.
 
-??? interview rm-refresh "How do you defend against prompt injection?"
-    There is no complete fix, so limit what a successful attack can do: give the model and its tools **least privilege**, require **human approval** for risky actions, keep untrusted content clearly separated from instructions, **validate outputs** before acting on them, and monitor for unusual behaviour. Say plainly that filtering prompts alone is not enough.
+??? interview rm-refresh "Hoe verdedig je je tegen prompt injection?"
+    Er bestaat geen volledige oplossing, dus beperk wat een geslaagde aanval kan aanrichten: geef het model en zijn tools de **minste rechten**, vraag **menselijke goedkeuring** voor risicovolle acties, houd onbetrouwbare content duidelijk gescheiden van instructies, **valideer output** voordat je erop handelt, en monitor op ongebruikelijk gedrag. Zeg er duidelijk bij dat alleen prompts filteren niet genoeg is.
 
-??? interview rm-refresh "What data protection issues come with sending data to an LLM provider?"
-    Personal or confidential data leaves your environment, so you need to know where it is processed (EU region?), whether the provider stores it or trains on it, and whether that fits the GDPR and your client's contracts. Mitigations: enterprise agreements with no training on your data, EU hosting, and removing personal data before it is sent.
+??? interview rm-refresh "Welke privacykwesties spelen er als je data naar een LLM-provider stuurt?"
+    Persoonsgegevens of vertrouwelijke data verlaten je omgeving, dus je moet weten waar ze worden verwerkt (in de EU?), of de provider ze opslaat of erop traint, en of dat past binnen de AVG en de contracten met je klant. Maatregelen: zakelijke overeenkomsten zonder training op jouw data, hosting in de EU, en persoonsgegevens verwijderen voordat ze worden verstuurd.

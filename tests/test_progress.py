@@ -91,6 +91,6 @@ def test_export_then_import_restores_progress(page: Page, tmp_path: Path) -> Non
     page.evaluate("localStorage.clear()")
     page.reload()
     page.locator("#rm-import").set_input_files(backup)
-    expect(page.locator("#rm-backup-status")).to_contain_text("imported")
+    expect(page.locator("#rm-backup-status")).to_contain_text("geïmporteerd")
     page.goto(STAGE)
     expect(page.locator(selector)).to_be_checked()

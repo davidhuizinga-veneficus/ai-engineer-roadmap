@@ -1,25 +1,25 @@
 ---
-title: Setup and costs
-description: What you need before starting the exercises, and what it costs.
+title: Setup en kosten
+description: Wat je nodig hebt voordat je aan de oefeningen begint, en wat het kost.
 ---
 
-# Setup and costs
+# Setup en kosten
 
-<p class="rm-lede">Reading and watching the resources costs nothing beyond the traineeship subscriptions. Only the exercises that call an LLM from your own code need a bit of setup.</p>
+<p class="rm-lede">Het lezen en bekijken van de bronnen kost niets extra naast de abonnementen van het traineeship. Alleen de oefeningen die vanuit je eigen code een LLM aanroepen vragen wat voorbereiding.</p>
 
-## Courses
+## Cursussen
 
-Udemy and DataCamp courses are covered by the traineeship subscriptions. Log in with your traineeship account before opening a course link. Everything else on this site is free.
+Cursussen op Udemy en DataCamp vallen onder de abonnementen van het traineeship. Log in met je traineeship-account voordat je een cursuslink opent. Al het andere op deze site is gratis.
 
-## Calling an LLM from code
+## Een LLM aanroepen vanuit code
 
-Exercises that call an LLM from code can use your **GitHub Copilot credits** through the [GitHub Copilot SDK](https://github.com/github/copilot-sdk), a Python library that lets your own program send prompts to Copilot.
+Oefeningen die vanuit code een LLM aanroepen kunnen je **GitHub Copilot-credits** gebruiken via de [GitHub Copilot SDK](https://github.com/github/copilot-sdk), een Python-library waarmee je eigen programma prompts naar Copilot kan sturen.
 
-!!! warning "Watch your Copilot budget"
-    The Copilot Free plan has a limited monthly allowance, and working through this roadmap can use up a large part of it. **A paid plan is advisable.**
+!!! warning "Let op je Copilot-budget"
+    Het Copilot Free-abonnement heeft een beperkt maandelijks tegoed, en deze roadmap kan daar een groot deel van opmaken. **Een betaald abonnement is aan te raden.**
 
-    Ran out? The free tier of [Groq](https://console.groq.com/) works as a fallback.
+    Tegoed op? De gratis versie van [Groq](https://console.groq.com/) werkt als alternatief.
 
 ## Embeddings
 
-Embeddings, which the RAG stage needs, will be covered in that stage once its resources are selected.
+Embeddings, die je nodig hebt in de RAG-fase, komen in die fase aan bod zodra de bronnen daarvoor zijn gekozen.

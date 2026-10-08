@@ -1,33 +1,33 @@
 ---
-title: Docker and deployment
-description: Turn a notebook into a service that runs the same way everywhere.
+title: Docker en deployment
+description: Maak van een notebook een service die overal op dezelfde manier draait.
 ---
 
-# Docker and deployment
+# Docker en deployment
 
-<p class="rm-lede">Vacancies ask for applications, not notebooks. This stage takes a working prototype and wraps it in an API, puts it in a container, and gets it running somewhere other than your laptop.</p>
+<p class="rm-lede">Vacatures vragen om applicaties, niet om notebooks. In deze fase neem je een werkend prototype, verpak je het in een API, zet je het in een container en laat je het ergens anders draaien dan op je eigen laptop.</p>
 
 <div class="rm-meta" markdown>
-<span>Stage 5 of 9</span>
-<span>About 3.5 hours</span>
-<span>Builds on: your Azure and Git experience</span>
+<span>Fase 5 van 9</span>
+<span>Ongeveer 3,5 uur</span>
+<span>Bouwt voort op: je ervaring met Azure en Git</span>
 </div>
 
-!!! curating "This stage is being curated"
-    Course sections and exercises are being selected.
+!!! curating "Deze fase wordt nog samengesteld"
+    Cursusonderdelen en oefeningen worden nog gekozen.
 
-## Learn
+## Leren
 
-- [Docker: Get started](https://docs.docker.com/get-started/){ .rm-item .rm-refresh data-source="Docs · Docker" data-time="30 min" } What images and containers are, and how to build and run your first one.
-- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/){ .rm-item data-source="Docs · FastAPI" data-time="1 hour" } Turn a Python function into a web API with automatic documentation.
+- [Docker: Get started](https://docs.docker.com/get-started/){ .rm-item .rm-refresh data-source="Docs · Docker" data-time="30 min" } Wat images en containers zijn, en hoe je je eerste bouwt en draait.
+- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/){ .rm-item data-source="Docs · FastAPI" data-time="1 uur" } Maak van een Python-functie een web-API met automatische documentatie.
 
-## Interview questions
+## Interviewvragen
 
-??? interview rm-refresh "What problem does Docker solve?"
-    "It works on my machine." A container packages your code together with its exact dependencies and runtime, so it runs the same on your laptop, in CI, and in the cloud. It also makes deployments repeatable: you ship an image, not a list of installation steps.
+??? interview rm-refresh "Welk probleem lost Docker op?"
+    "Het werkt op mijn machine." Een container verpakt je code samen met de exacte dependencies en runtime, zodat het hetzelfde draait op je laptop, in CI en in de cloud. Het maakt deployments ook herhaalbaar: je levert een image op, geen lijst met installatiestappen.
 
-??? interview rm-refresh "How would you serve an LLM application to other teams?"
-    Wrap it in an **API** (for example FastAPI) with a clear request and response schema, put it in a **container**, and run it on a managed platform such as Azure Container Apps. Add authentication, rate limiting, timeouts for slow model calls, and logging. Keep API keys in a secret store, never in the image.
+??? interview rm-refresh "Hoe zou je een LLM-applicatie beschikbaar maken voor andere teams?"
+    Verpak het in een **API** (bijvoorbeeld FastAPI) met een duidelijk schema voor verzoeken en antwoorden, zet het in een **container** en draai het op een managed platform zoals Azure Container Apps. Voeg authenticatie, rate limiting, timeouts voor trage modelaanroepen en logging toe. Bewaar API-keys in een secret store, nooit in de image.
 
-??? interview rm-refresh "LLM calls are slow. How do you keep the application responsive?"
-    **Stream** the response so users see text immediately; make calls **asynchronous** so one slow request doesn't block others; **cache** answers to repeated questions; and use a smaller, faster model for simple steps. Long-running agent tasks can run as background jobs that the user checks on later.
+??? interview rm-refresh "LLM-aanroepen zijn traag. Hoe houd je de applicatie responsief?"
+    **Stream** het antwoord zodat gebruikers direct tekst zien; maak aanroepen **asynchroon** zodat één traag verzoek de rest niet blokkeert; **cache** antwoorden op herhaalde vragen; en gebruik een kleiner, sneller model voor eenvoudige stappen. Langlopende agenttaken kunnen als achtergrondtaak draaien, waarvan de gebruiker later de status bekijkt.
