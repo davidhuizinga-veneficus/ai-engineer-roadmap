@@ -13,12 +13,13 @@ description: Weet of je LLM-applicatie echt werkt, en zie wat hij in productie d
 <span>Bouwt voort op: RAG, agents</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen.
-
 ## Leren
 
-- [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/){ .rm-item .rm-refresh data-source="Artikel · Hamel Husain" data-time="25 min" } Een praktisch pleidooi om vroeg evaluaties te bouwen, van iemand die dat voor zijn werk doet.
+- [Evaluation for LLM Applications](https://www.udemy.com/course/evaluation-for-llm-applications/){ .rm-item data-source="Cursus · Udemy" data-time="59 min" } Een compacte tour langs alles wat je nodig hebt: een testset bouwen, foutenanalyse, LLM-as-judge, RAG evalueren en monitoring in productie.
+- [LLM Application Evaluation with LangSmith](https://www.datacamp.com/courses/llm-application-evaluation-with-langsmith){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 2 uur" } Datasets, evaluators en experimenten in LangSmith, met praktische oefeningen in de browser. Draait zonder API-sleutel.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte uitlegvideo over LLM-evaluatie voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 

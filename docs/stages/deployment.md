@@ -9,17 +9,20 @@ description: Maak van een notebook een service die overal op dezelfde manier dra
 
 <div class="rm-meta" markdown>
 <span>Fase 5 van 9</span>
-<span>Ongeveer 3,5 uur</span>
+<span>Ongeveer 4,5 uur</span>
 <span>Bouwt voort op: je ervaring met Azure en Git</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen.
+!!! curating "Deze fase is nog niet compleet"
+    Er ontbreekt nog materiaal over projectstructuur (pyproject.toml en uv).
 
 ## Leren
 
-- [Docker: Get started](https://docs.docker.com/get-started/){ .rm-item .rm-refresh data-source="Docs · Docker" data-time="30 min" } Wat images en containers zijn, en hoe je je eerste bouwt en draait.
-- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/){ .rm-item data-source="Docs · FastAPI" data-time="1 uur" } Maak van een Python-functie een web-API met automatische documentatie.
+- [Ultimate Docker Bootcamp for ML, GenAI and Agentic AI](https://www.udemy.com/course/mastering-aiml-with-docker/){ .rm-item data-source="Cursus · Udemy" data-time="Ongeveer 2,5 uur, Dockerfile- en Compose-secties" } Docker met voorbeelden uit machine learning: je verpakt een ML-app in een image en draait meerdere services samen met Docker Compose. Sla de laatste twee secties (Docker Model Runner en MCP Toolkit) over, die hebben Docker Desktop en krachtige hardware nodig.
+- [Deploying AI into Production with FastAPI](https://www.datacamp.com/courses/deploying-ai-into-production-with-fastapi){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 1 uur 45 min, hoofdstuk 2–3" } Authenticatie met API-keys, rate limiting en async: de zorgen die bij een LLM-service horen. Draait in de browser.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte uitlegvideo over Docker voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 

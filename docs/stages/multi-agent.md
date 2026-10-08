@@ -9,17 +9,16 @@ description: Meerdere agents die samenwerken, en waarom dat vaak niet het antwoo
 
 <div class="rm-meta" markdown>
 <span>Fase 8 van 9</span>
-<span>Ongeveer 2 uur</span>
+<span>Ongeveer 10 min</span>
 <span>Bouwt voort op: agents, evaluatie</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen.
+!!! curating "Deze fase is nog niet compleet"
+    Er ontbreekt nog materiaal over patronen voor meerdere agents en over wanneer je ze juist niet gebruikt.
 
 ## Leren
 
-- [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system){ .rm-item .rm-refresh data-source="Artikel · Anthropic" data-time="25 min" } Een eerlijk verslag van waar meerdere agents helpen, en wat ze kosten.
-- [Don't build multi-agents](https://cognition.ai/blog/dont-build-multi-agents){ .rm-item data-source="Artikel · Cognition" data-time="15 min" } Het tegenargument: waarom context delen tussen agents lastig is.
+- [Multi-Agent Systems Explained](https://www.youtube.com/watch?v=sWH0T4Zez6I){ .rm-item .rm-refresh data-source="Video · IBM Technology" data-time="8 min" } Een korte uitleg van hoe meerdere agents samenwerken.
 
 ## Interviewvragen
 

@@ -40,7 +40,7 @@ hide:
       <span class="rm-stage-title">RAG en vectordatabases</span>
       <span class="rm-stage-text">Vragen over je eigen documenten beantwoorden door eerst de juiste passages op te halen.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">4 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">2 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/agents/" data-stage="stages/agents/">
     <span class="rm-stage-number">03</span>
@@ -48,7 +48,7 @@ hide:
       <span class="rm-stage-title">Agents en tool calling</span>
       <span class="rm-stage-text">Laat het model in een loop zelf tools kiezen, en weet wanneer een vaste workflow beter is.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">4 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">3 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/evaluation/" data-stage="stages/evaluation/">
     <span class="rm-stage-number">04</span>
@@ -64,7 +64,7 @@ hide:
       <span class="rm-stage-title">Docker en deployment</span>
       <span class="rm-stage-text">Van notebook naar een API in een container die overal hetzelfde draait.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">3,5 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">4,5 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/security/" data-stage="stages/security/">
     <span class="rm-stage-number">06</span>
@@ -80,7 +80,7 @@ hide:
       <span class="rm-stage-title">MCP en skills</span>
       <span class="rm-stage-text">Standaardmanieren om tools, data en instructies aan elke agent te koppelen.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">3 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">5,5 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/multi-agent/" data-stage="stages/multi-agent/">
     <span class="rm-stage-number">08</span>
@@ -88,7 +88,7 @@ hide:
       <span class="rm-stage-title">Multi-agent systemen</span>
       <span class="rm-stage-text">Meerdere agents die samenwerken, en waarom dat vaak niet het antwoord is.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">2 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">10 min</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card rm-stage-card--final" href="stages/final-project/" data-stage="stages/final-project/">
     <span class="rm-stage-number">09</span>

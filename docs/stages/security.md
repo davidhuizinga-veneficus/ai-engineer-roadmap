@@ -13,12 +13,13 @@ description: Hoe LLM-applicaties worden aangevallen, en hoe je de schade beperkt
 <span>Bouwt voort op: de securitymodule van het traineeship</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen.
-
 ## Leren
 
-- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/){ .rm-item .rm-refresh data-source="Naslag · OWASP" data-time="30 min" } De standaardlijst met LLM-risico's. Bekijk ze alle tien globaal en lees prompt injection in detail.
+- [AI Security: Defend LLM Apps Against the OWASP LLM Top 10](https://www.udemy.com/course/ai-security-defend-llm-apps-against-the-owasp-llm-top-10/){ .rm-item data-source="Cursus · Udemy" data-time="Ongeveer 1 uur 50 min, geselecteerde secties" } Volgt de OWASP-lijst van 2025, met per risico een uitleg en een lab. Let op: de cursus is nieuw en heeft nog geen reviews.
+- [Lakera Agent Breaker](https://play.lakera.ai/agent-breaker){ .rm-item .rm-exercise data-source="Oefening · Lakera" data-time="30–45 min" } Probeer in de browser agents te misleiden met prompt injection. Er is geen sleutel of installatie nodig.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte crashcourse-video over LLM-security voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 

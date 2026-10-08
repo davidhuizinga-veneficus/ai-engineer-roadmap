@@ -9,12 +9,19 @@ description: Laat een LLM vragen over je eigen documenten beantwoorden door eers
 
 <div class="rm-meta" markdown>
 <span>Fase 2 van 9</span>
-<span>Ongeveer 4 uur</span>
+<span>Ongeveer 2 uur</span>
 <span>Bouwt voort op: LLM-basiskennis</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Er worden nog bronnen gekozen, onder andere over hoe je gratis embeddings maakt op je eigen laptop.
+!!! curating "Deze fase is nog niet compleet"
+    Er ontbreekt nog materiaal over vectordatabases, chunking, retrieval en RAG-evaluatie.
+
+## Leren
+
+- [Retrieval Augmented Generation (RAG) with LangChain](https://www.datacamp.com/courses/retrieval-augmented-generation-rag-with-langchain){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 2 uur, hoofdstuk 1–2" } Bouw een RAG-toepassing met LangChain en verbeter daarna de architectuur. Hoofdstuk 3 (Graph RAG) kun je overslaan. Draait zonder API-sleutel.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte uitlegvideo over RAG voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 

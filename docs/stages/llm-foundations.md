@@ -13,12 +13,13 @@ description: Hoe large language models van buitenaf werken, en hoe je er een aan
 <span>Bouwt voort op: je data science-achtergrond</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen. De essentie hieronder is genoeg voor de opfrisroute van een halve dag.
-
 ## Leren
 
-- [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g){ .rm-item .rm-refresh data-source="Video · Andrej Karpathy" data-time="1 uur" } Een rondleiding van een uur langs wat LLM's zijn, hoe ze getraind worden en waar ze de mist in gaan.
+- [Working with the OpenAI API](https://www.datacamp.com/courses/working-with-the-openai-api){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 1 uur 45 min, hoofdstuk 1–2" } Je eerste aanroepen van een LLM-API in Python, stap voor stap. DataCamp levert de API-sleutel zelf, dus je hebt niets extra's nodig.
+- [Understanding Prompt Engineering](https://www.datacamp.com/courses/understanding-prompt-engineering){ .rm-item data-source="Cursus · DataCamp" data-time="1 uur 11 min" } Prompting zonder code: zero-shot, few-shot, chain of thought en rollen.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte uitlegvideo over LLM's voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 

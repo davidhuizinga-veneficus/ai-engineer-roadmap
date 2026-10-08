@@ -9,17 +9,21 @@ description: Standaardmanieren om agents tools, data en instructies te geven.
 
 <div class="rm-meta" markdown>
 <span>Fase 7 van 9</span>
-<span>Ongeveer 3 uur</span>
+<span>Ongeveer 5,5 uur</span>
 <span>Bouwt voort op: agents en tool calling</span>
 </div>
 
-!!! curating "Deze fase wordt nog samengesteld"
-    Cursusonderdelen en oefeningen worden nog gekozen.
+!!! curating "Deze fase is nog niet af"
+    De DataCamp-cursus en de workshop overlappen elkaar, en er ontbreekt nog materiaal over skills.
 
 ## Leren
 
-- [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro){ .rm-item .rm-refresh data-source="Docs · MCP" data-time="15 min" } De officiële introductie: wat MCP is en waarom het bestaat.
-- [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills){ .rm-item data-source="Docs · GitHub" data-time="15 min" } Hoe skills werken in GitHub Copilot, inclusief waar je ze in een repository neerzet.
+- [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro){ .rm-item data-source="Docs · MCP" data-time="15 min" } De officiële introductie: wat MCP is en waarom het bestaat.
+- [Introduction to Model Context Protocol (MCP)](https://www.datacamp.com/courses/introduction-to-model-context-protocol-mcp){ .rm-item data-source="Cursus · DataCamp" data-time="3 uur 11 min" } Bouw MCP-servers en koppel ze aan een LLM-toepassing, met oefeningen in de browser. Draait zonder API-sleutel.
+- [Using and building MCP servers](https://pamelafox.github.io/github-copilot-mcp-tutorial/){ .rm-item .rm-exercise data-source="Workshop · Pamela Fox" data-time="Ongeveer 1 uur 50 min" } Verbind Copilot met bestaande MCP-servers en bouw zelf een Python-server met FastMCP. Werkt met het gratis Copilot-abonnement; test eerst of alles bij jou werkt.
+
+!!! todo "Opfrisvideo nog te kiezen"
+    Kies een korte uitlegvideo over MCP en skills voor de opfrisroute van een halve dag.
 
 ## Interviewvragen
 
