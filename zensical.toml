@@ -8,13 +8,13 @@ nav = [
   { "Setup en kosten" = "setup.md" },
   { "Fases" = [
     "stages/llm-foundations.md",
-    "stages/rag.md",
     "stages/agents.md",
-    "stages/evaluation.md",
-    "stages/deployment.md",
-    "stages/security.md",
     "stages/mcp-skills.md",
+    "stages/rag.md",
     "stages/multi-agent.md",
+    "stages/evaluation.md",
+    "stages/security.md",
+    "stages/deployment.md",
     "stages/final-project.md",
   ] },
 ]

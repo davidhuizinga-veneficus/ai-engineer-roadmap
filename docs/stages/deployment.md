@@ -8,7 +8,7 @@ description: Maak van een notebook een service die overal op dezelfde manier dra
 <p class="rm-lede">Vacatures vragen om applicaties, niet om notebooks. In deze fase neem je een werkend prototype, verpak je het in een API, zet je het in een container en laat je het ergens anders draaien dan op je eigen laptop.</p>
 
 <div class="rm-meta" markdown>
-<span>Fase 5 van 9</span>
+<span>Fase 8 van 9</span>
 <span>Ongeveer 4,5 uur</span>
 <span>Bouwt voort op: je ervaring met Azure en Git</span>
 </div>
