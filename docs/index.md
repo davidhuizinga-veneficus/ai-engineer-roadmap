@@ -72,7 +72,7 @@ hide:
       <span class="rm-stage-title">Evaluatie en observability</span>
       <span class="rm-stage-text">Van "het zag er goed uit" naar cijfers, en zien wat er in productie gebeurt.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">3 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">3,5 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/security/" data-stage="stages/security/">
     <span class="rm-stage-number">07</span>
@@ -80,7 +80,7 @@ hide:
       <span class="rm-stage-title">LLM-security</span>
       <span class="rm-stage-text">Prompt injection, datalekken en hoe je de schade beperkt.</span>
     </span>
-    <span class="rm-stage-side"><span class="rm-stage-hours">2,5 uur</span><span class="rm-stage-progress">–</span></span>
+    <span class="rm-stage-side"><span class="rm-stage-hours">3 uur</span><span class="rm-stage-progress">–</span></span>
   </a>
   <a class="rm-stage-card" href="stages/deployment/" data-stage="stages/deployment/">
     <span class="rm-stage-number">08</span>

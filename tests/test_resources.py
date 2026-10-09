@@ -27,6 +27,7 @@ EXPECTED: dict[str, dict[str, object]] = {
         "hours": "2 uur",
         "items": [
             (DC + "retrieval-augmented-generation-rag-with-langchain", False, False),
+            ("https://www.youtube.com/watch?v=T-D1OfcDW1M", False, True),
         ],
     },
     "agents": {
@@ -42,7 +43,7 @@ EXPECTED: dict[str, dict[str, object]] = {
         ],
     },
     "evaluation": {
-        "hours": "3 uur",
+        "hours": "3,5 uur",
         "items": [
             (DC + "llm-application-evaluation-with-langsmith", False, False),
             (
@@ -50,6 +51,7 @@ EXPECTED: dict[str, dict[str, object]] = {
                 False,
                 False,
             ),
+            ("https://www.youtube.com/watch?v=-sL7QzDFW-4", False, True),
         ],
     },
     "deployment": {
@@ -60,7 +62,7 @@ EXPECTED: dict[str, dict[str, object]] = {
         ],
     },
     "security": {
-        "hours": "2,5 uur",
+        "hours": "3 uur",
         "items": [
             (
                 "https://www.udemy.com/course/ai-security-defend-llm-apps-against-the-owasp-llm-top-10/",
@@ -68,6 +70,7 @@ EXPECTED: dict[str, dict[str, object]] = {
                 False,
             ),
             ("https://play.lakera.ai/agent-breaker", True, False),
+            ("https://www.youtube.com/watch?v=gUNXZMcd2jU", False, True),
         ],
     },
     "mcp-skills": {
@@ -80,6 +83,7 @@ EXPECTED: dict[str, dict[str, object]] = {
             ),
             (DC + "introduction-to-model-context-protocol-mcp", False, False),
             ("https://pamelafox.github.io/github-copilot-mcp-tutorial/", True, False),
+            ("https://www.youtube.com/watch?v=6wdvSH61xGw&t=48s", False, True),
         ],
     },
     "multi-agent": {

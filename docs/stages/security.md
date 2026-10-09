@@ -9,7 +9,7 @@ description: Hoe LLM-applicaties worden aangevallen, en hoe je de schade beperkt
 
 <div class="rm-meta" markdown>
 <span>Fase 7 van 9</span>
-<span>Ongeveer 2,5 uur</span>
+<span>Ongeveer 3 uur</span>
 <span>Bouwt voort op: de securitymodule van het traineeship</span>
 </div>
 
@@ -17,9 +17,7 @@ description: Hoe LLM-applicaties worden aangevallen, en hoe je de schade beperkt
 
 - [AI Security: Defend LLM Apps Against the OWASP LLM Top 10](https://www.udemy.com/course/ai-security-defend-llm-apps-against-the-owasp-llm-top-10/){ .rm-item data-source="Cursus · Udemy" data-time="Ongeveer 1 uur 50 min, geselecteerde secties" } Volgt de OWASP-lijst van 2025, met per risico een uitleg en een lab. Let op: de cursus is nieuw en heeft nog geen reviews.
 - [Lakera Agent Breaker](https://play.lakera.ai/agent-breaker){ .rm-item .rm-exercise data-source="Oefening · Lakera" data-time="30–45 min" } Probeer in de browser agents te misleiden met prompt injection. Er is geen sleutel of installatie nodig.
-
-!!! todo "Opfrisvideo nog te kiezen"
-    Kies een korte crashcourse-video over LLM-security voor de opfrisroute van een halve dag.
+- [OWASP's Top 10 Ways to Attack LLMs: AI Vulnerabilities Exposed](https://www.youtube.com/watch?v=gUNXZMcd2jU){ .rm-item .rm-refresh data-source="Video · IBM Technology" data-time="25 min" } Een rondgang langs de OWASP Top 10 voor LLM-applicaties: hoe elke aanval werkt en hoe je je ertegen verdedigt.
 
 ## Interviewvragen
 

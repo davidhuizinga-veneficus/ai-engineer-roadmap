@@ -9,7 +9,7 @@ description: Weet of je LLM-applicatie echt werkt, en zie wat hij in productie d
 
 <div class="rm-meta" markdown>
 <span>Fase 6 van 9</span>
-<span>Ongeveer 3 uur</span>
+<span>Ongeveer 3,5 uur</span>
 <span>Bouwt voort op: RAG, agents</span>
 </div>
 
@@ -17,9 +17,7 @@ description: Weet of je LLM-applicatie echt werkt, en zie wat hij in productie d
 
 - [Evaluation for LLM Applications](https://www.udemy.com/course/evaluation-for-llm-applications/){ .rm-item data-source="Cursus · Udemy" data-time="59 min" } Een compacte tour langs alles wat je nodig hebt: een testset bouwen, foutenanalyse, LLM-as-judge, RAG evalueren en monitoring in productie.
 - [LLM Application Evaluation with LangSmith](https://www.datacamp.com/courses/llm-application-evaluation-with-langsmith){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 2 uur" } Datasets, evaluators en experimenten in LangSmith, met praktische oefeningen in de browser. Draait zonder API-sleutel.
-
-!!! todo "Opfrisvideo nog te kiezen"
-    Kies een korte uitlegvideo over LLM-evaluatie voor de opfrisroute van een halve dag.
+- [How to Evaluate (and Improve) Your LLM Apps](https://www.youtube.com/watch?v=-sL7QzDFW-4){ .rm-item .rm-refresh data-source="Video · Shaw Talebi" data-time="27 min" } Hoe je een LLM-applicatie stap voor stap evalueert en de uitkomsten gebruikt om hem te verbeteren.
 
 ## Interviewvragen
 
