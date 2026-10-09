@@ -692,6 +692,44 @@ body {
   color: var(--rm-accent);
 }
 
+.rm-thumb {
+  position: relative;
+  display: block;
+  width: min(100%, 18rem);
+  margin-bottom: 0.5rem;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid var(--rm-line);
+  border-radius: calc(var(--rm-radius) - 4px);
+  background: var(--rm-surface-2);
+}
+
+/* YouTube's hqdefault image is 4:3 with black bars; cropping to 16:9 hides them. */
+.rm-thumb-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rm-thumb::after {
+  content: "";
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: rgb(17 17 17 / 0.72)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M9 6.5v11l9-5.5z'/%3E%3C/svg%3E")
+    center / 1.4rem no-repeat;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .rm-li-main a.rm-item:hover .rm-thumb::after {
+  background-color: var(--rm-brand);
+}
+
 .md-typeset li.rm-li.is-done .rm-li-main {
   opacity: 0.55;
 }

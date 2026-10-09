@@ -17,9 +17,7 @@ description: Hoe large language models van buitenaf werken, en hoe je er een aan
 
 - [Working with the OpenAI API](https://www.datacamp.com/courses/working-with-the-openai-api){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 1 uur 45 min, hoofdstuk 1–2" } Je eerste aanroepen van een LLM-API in Python, stap voor stap. DataCamp levert de API-sleutel zelf, dus je hebt niets extra's nodig.
 - [Understanding Prompt Engineering](https://www.datacamp.com/courses/understanding-prompt-engineering){ .rm-item data-source="Cursus · DataCamp" data-time="1 uur 11 min" } Prompting zonder code: zero-shot, few-shot, chain of thought en rollen.
-
-!!! todo "Opfrisvideo nog te kiezen"
-    Kies een korte uitlegvideo over LLM's voor de opfrisroute van een halve dag.
+- [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs){ .rm-item .rm-refresh data-source="Video · 3Blue1Brown" data-time="8 min" } Een korte, visuele uitleg van hoe een LLM het volgende woord voorspelt, en hoe training en transformers daarbij helpen.
 
 ## Interviewvragen
 

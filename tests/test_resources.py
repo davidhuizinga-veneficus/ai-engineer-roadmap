@@ -20,6 +20,7 @@ EXPECTED: dict[str, dict[str, object]] = {
         "items": [
             (DC + "working-with-the-openai-api", False, False),
             (DC + "understanding-prompt-engineering", False, False),
+            ("https://www.youtube.com/watch?v=LPZh9BOjkQs", False, True),
         ],
     },
     "rag": {

@@ -124,6 +124,31 @@
 
   // ---------- stage pages ----------
 
+  function youtubeId(href) {
+    try {
+      const url = new URL(href);
+      if (url.hostname.endsWith("youtube.com") && url.pathname === "/watch") return url.searchParams.get("v");
+      if (url.hostname === "youtu.be") return url.pathname.slice(1) || null;
+    } catch {
+      // Not an absolute URL, so not a video.
+    }
+    return null;
+  }
+
+  // Videos get a preview inside their own link, so clicking it opens the video.
+  // The image has no alt text: the link's title already names the video.
+  function addThumbnail(link) {
+    const id = youtubeId(link.href);
+    if (!id) return;
+    const image = el("img", {
+      class: "rm-thumb-img",
+      src: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+      alt: "",
+      loading: "lazy",
+    });
+    link.prepend(el("span", { class: "rm-thumb" }, [image]));
+  }
+
   function enhanceItem(link) {
     const item = link.closest("li");
     if (!item) return;
@@ -133,6 +158,7 @@
     if (link.classList.contains("rm-exercise")) item.classList.add("rm-exercise");
     link.target = "_blank";
     link.rel = "noopener";
+    addThumbnail(link);
 
     const main = el("div", { class: "rm-li-main" });
     main.append(...item.childNodes);
