@@ -18,10 +18,9 @@ description: Standaardmanieren om agents tools, data en instructies te geven.
 
 ## Leren
 
-- [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro){ .rm-item data-source="Docs · MCP" data-time="15 min" } De officiële introductie: wat MCP is en waarom het bestaat.
+- [Agent Skills vs MCP: What's the difference?](https://www.youtube.com/watch?v=6wdvSH61xGw&t=48s){ .rm-item .rm-refresh data-source="Video · Shaw Talebi" data-time="Ongeveer 20 min, vanaf 0:48" } Wat MCP en skills elk doen, waar ze verschillen en wanneer je welke gebruikt.
 - [Introduction to Model Context Protocol (MCP)](https://www.datacamp.com/courses/introduction-to-model-context-protocol-mcp){ .rm-item data-source="Cursus · DataCamp" data-time="3 uur 11 min" } Bouw MCP-servers en koppel ze aan een LLM-toepassing, met oefeningen in de browser. Draait zonder API-sleutel.
 - [Using and building MCP servers](https://pamelafox.github.io/github-copilot-mcp-tutorial/){ .rm-item .rm-exercise data-source="Workshop · Pamela Fox" data-time="Ongeveer 1 uur 50 min" } Verbind Copilot met bestaande MCP-servers en bouw zelf een Python-server met FastMCP. Werkt met het gratis Copilot-abonnement; test eerst of alles bij jou werkt.
-- [Agent Skills vs MCP: What's the difference?](https://www.youtube.com/watch?v=6wdvSH61xGw&t=48s){ .rm-item .rm-refresh data-source="Video · Shaw Talebi" data-time="Ongeveer 20 min, vanaf 0:48" } Wat MCP en skills elk doen, waar ze verschillen en wanneer je welke gebruikt.
 
 ## Interviewvragen
 

@@ -1,5 +1,6 @@
 """YouTube resources show a thumbnail preview that opens the video."""
 
+import re
 from urllib.parse import parse_qs, urlparse
 
 import pytest
@@ -130,3 +131,12 @@ def test_thumbnail_fills_its_frame_so_black_bars_are_cropped(
     assert image_box is not None and frame_box is not None
     assert abs(image_box["height"] - frame_box["height"]) <= 2
     assert abs(image_box["y"] - frame_box["y"]) <= 2
+
+
+@pytest.mark.parametrize("stage", STAGES)
+def test_video_is_the_first_resource(page: Page, stage: str) -> None:
+    page.goto(f"stages/{stage}/")
+    items = page.locator("a.rm-item")
+    if page.locator(YOUTUBE).count() == 0:
+        pytest.skip("stage has no video")
+    expect(items.first).to_have_attribute("href", re.compile(r"youtube\.com/watch"))

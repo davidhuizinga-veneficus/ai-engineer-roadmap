@@ -18,8 +18,8 @@ description: Laat een LLM vragen over je eigen documenten beantwoorden door eers
 
 ## Leren
 
-- [Retrieval Augmented Generation (RAG) with LangChain](https://www.datacamp.com/courses/retrieval-augmented-generation-rag-with-langchain){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 2 uur, hoofdstuk 1–2" } Bouw een RAG-toepassing met LangChain en verbeter daarna de architectuur. Hoofdstuk 3 (Graph RAG) kun je overslaan. Draait zonder API-sleutel.
 - [What is Retrieval-Augmented Generation (RAG)?](https://www.youtube.com/watch?v=T-D1OfcDW1M){ .rm-item .rm-refresh data-source="Video · IBM Technology" data-time="7 min" } Een korte uitleg van waarom een LLM zonder RAG verouderde of verzonnen antwoorden geeft, en hoe ophalen uit je eigen bronnen dat oplost.
+- [Retrieval Augmented Generation (RAG) with LangChain](https://www.datacamp.com/courses/retrieval-augmented-generation-rag-with-langchain){ .rm-item data-source="Cursus · DataCamp" data-time="Ongeveer 2 uur, hoofdstuk 1–2" } Bouw een RAG-toepassing met LangChain en verbeter daarna de architectuur. Hoofdstuk 3 (Graph RAG) kun je overslaan. Draait zonder API-sleutel.
 
 ## Interviewvragen
 

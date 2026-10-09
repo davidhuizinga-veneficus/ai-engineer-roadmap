@@ -76,11 +76,6 @@ EXPECTED: dict[str, dict[str, object]] = {
     "mcp-skills": {
         "hours": "5,5 uur",
         "items": [
-            (
-                "https://modelcontextprotocol.io/docs/getting-started/intro",
-                False,
-                False,
-            ),
             (DC + "introduction-to-model-context-protocol-mcp", False, False),
             ("https://pamelafox.github.io/github-copilot-mcp-tutorial/", True, False),
             ("https://www.youtube.com/watch?v=6wdvSH61xGw&t=48s", False, True),
